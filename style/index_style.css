@@ -199,16 +199,18 @@ section{
     position: absolute;
     top: 6%;
     right: 1%;
-    font-size: 2.2rem;
+    font-size: 5rem;
     color: white;
     text-shadow: 2px 2px 3px black;
 }
 .section-para{
     /* border: 2px solid black; */
-    width: 50%;
+    width: 70%;
     display: flex;
     margin: auto;
     /* margin: 13px; */
+    font-family: 'Tangerine', cursive;
+
 
 }
 .section-para p{
@@ -217,7 +219,7 @@ section{
     justify-content: center;
     margin: 13px;
     padding: 11px;
-    font-size: 1.5rem;
+    font-size: 2.5em;
     border-bottom: 2px solid black;
 }
 .offers-1st{
@@ -225,7 +227,7 @@ section{
     margin: auto;
 }
 .offers-1st img{
-    height: 250px;
+    height: 550px;
     width: 30%;
     object-fit: cover;
     margin: 11px 19px;
@@ -265,6 +267,12 @@ position: absolute;
     background: rgba(87, 87, 87, 0.459);
 }
 
+
+.unique{
+    font-family: 'Tangerine', cursive;
+
+}
+
 .cent p{
     display: flex;
     margin: auto auto;
@@ -291,10 +299,11 @@ padding: 11px;
     text-align: center;
 }
 .catg-para p{
-     width: 65%;
+     width: 70%;
     display: flex;
     margin: auto auto; 
-    font-size: 1.2rem;
+    font-size: 2.2em;
+    font-family: 'Tangerine', cursive;
 }
 
 /* second section  */

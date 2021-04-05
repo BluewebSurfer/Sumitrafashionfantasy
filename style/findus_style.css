@@ -12,17 +12,19 @@
 .find-para{
     width: 50%;
     display: flex;
+    font-family: 'Tangerine', cursive;
 }
 .find-para p{
-    width: 40%;
-    font-size: 23px;
+    width: 80%;
+    font-size: 2.3rem;
     margin: auto auto;
     justify-content: left;
 }
 .find-row img{
     width: 50%;
-    height: 450px;
+    height: 100%;
     object-fit: cover;
+    margin-right: 20px;
 }
 /* contact form  */
 .contact-form{
@@ -106,8 +108,9 @@
         border-bottom: 2px solid black;
     }
     .find-row img{
-        width: 100%;
-        height: 450px;
+        width: 80%;
+        height: 100%;
+        margin-left: 65px;
         
     }
   
@@ -142,8 +145,33 @@
 
 
 
+@media screen and (max-width: 550px)
+{
+.find-row img{
+        width: 80%;
+        height: 100%;
+        margin-left: 55px;
+        
+    }
+}
 
 
+@media screen and (max-width: 450px)
+{
+.find-row img{
+        width: 80%;
+        height: 100%;
+        margin-left: 45px;
+        
+    }
+}
 
-
-
+@media screen and (max-width: 350px)
+{
+.find-row img{
+        width: 80%;
+        height: 100%;
+        margin-left: 35px;
+        
+    }
+}

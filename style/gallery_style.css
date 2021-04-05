@@ -10,7 +10,9 @@
 .paragraph p{
     margin: 7px;
     /* border: 2px solid black; */
-    font-size: 1.5rem;
+    font-size: 2.2rem;
+    text-align: center;
+    font-family: 'Tangerine', cursive;
 }
 .image-row-1{
     display: flex;
@@ -19,7 +21,7 @@
 }
 .image-row-1 img{
     width: 48%;
-    height: 450px;
+    height: 850px;
     object-fit: cover;
     /* margin: 5px; */
     margin: auto;
@@ -37,6 +39,32 @@
 	transform: scale(0.97);
 }
 
+.image-row-2{
+    display: flex;
+    padding: 5px;
+    margin: 9px 0px;
+}
+
+.image-row-2 img{
+    width: 48%;
+    height: 450px;
+    object-fit: cover;
+    /* margin: 5px; */
+    margin: auto;
+    box-shadow: 8px 7px 12px black;
+
+
+
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.image-row-1 img:hover{
+    -webkit-transform: scale(0.97);
+    transform: scale(0.97);
+}
+
 
 .end-para{
     /* border: 2px solid black; */
@@ -44,11 +72,12 @@
     margin: 55px 9px;
 }
 .end-para p{
-   font-size: 1.7rem;
+   font-size: 2.3rem;
    width: 60%;
    justify-content: center;
    margin: auto auto;
    border-bottom: 2px solid black;
+   font-family: 'Tangerine', cursive;
 }
 
 
